@@ -35,10 +35,10 @@ class App extends Component{
                       if(item.rating<=50){
                         return <li key={key}>{item.name} <font color="red">{item.rating}</font></li>
                       }
-                      if(item.rating>50 && item.rating<=70){
+                      if(item.rating>50 && item.rating<=72){
                         return <li key={key}>{item.name} <font color="yellow">{item.rating}</font></li>
                       }
-                      if(item.rating>70 && item.rating<=100){
+                      if(item.rating>72 && item.rating<=100){
                         return <li key={key}>{item.name} <font color="green">{item.rating}</font></li>
                       }
                     })
